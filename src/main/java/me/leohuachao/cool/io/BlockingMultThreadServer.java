@@ -22,7 +22,7 @@ public class BlockingMultThreadServer {
 
     public static final Integer DEFAULT_PORT = 8080;
 
-    private static final Logger log = LogManager.getLogger(BlockingServer.class);
+    private static final Logger log = LogManager.getLogger(BlockingMultThreadServer.class);
 
     public static void main(String[] args) throws IOException {
         Configurator.setRootLevel(Level.DEBUG);
